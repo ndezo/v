@@ -39,9 +39,9 @@ def jalan(z):
 logo = """\033[1;97mMantan Tools
 \033[1;97m╔════════════════════════════════════════╗
 \033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/khazekira\033[1;97m║
-\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mMy Facebooks Hanifa Nabila\033[0m\  033[1;97m║
-\033[1;97m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4mLagi Bucin\033[0m                     \033[1;97m║
-\033[1;97m║\033[1;93m* \033[1;97mThanks To  \033[1;91m: \033[1;96mAbrarGans,SotongGans,And All Member Mysthck Team \033[1;97m║
+\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mMy Facebooks Hanifa Nabila\033[0m\  \033[1;97m║
+\033[1;97m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4mLagi Bucin \033[0m                     \033[1;97m║
+\033[1;97m║\033[1;93m* \033[1;97mThanks To  \033[1;91m: \033[1;96mAbrarGans,SotongGans,mysthck team\033[1;97m║
 \033[1;97m╚════════════════════════════════════════╝"""
 
 # titik #
