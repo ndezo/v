@@ -38,7 +38,7 @@ def jalan(z):
 ##### LOGO #####
 logo = """\033[1;97mMantan Tools
 \033[1;97m╔════════════════════════════════════════╗
-\033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/khazekira\033[1;97m║
+\033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/khazekira-se7/\033[1;97m║
 \033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mMy Facebooks Hanifa Nabila\033[0m  \033[1;97m║
 \033[1;97m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4mLagi Bucin \033[0m                     \033[1;97m║
 \033[1;97m║\033[1;93m* \033[1;97mThanks To  \033[1;91m: \033[1;96mAbrarGans,SotongGans,mysthck team\033[1;97m║
@@ -220,33 +220,33 @@ def pilih():
 	if zedd =="":
 		print "\033[1;91m[!] Wrong input"
 		pilih()
-	elif zedd =="1":
+	elif zedd =="":
 		informasi()
-	elif zedd =="2":
+	elif zedd =="":
 		dump()
 	elif zedd =="3":
 		menu_hack()
-	elif zedd =="4":
+	elif zedd =="1":
 		menu_bot()
-	elif zedd =="5":
+	elif zedd =="2":
 		lain()
-	elif zedd =="6":
+	elif zedd =="3":
 		os.system('reset')
 		print logo
 		toket=open('login.txt','r').read()
 		print "\033[1;91m[+] \033[1;92mYour token\033[1;91m :\033[1;97m "+toket
 		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 		menu()
-        elif zedd =="7":
+        elif zedd =="4":
                 os.system('reset')
                 print logo
                 print 40 * '\033[1;97m\xe2\x95\x90'
                 os.system('git pull origin master')
                 raw_input('\n\033[1;91m[ \033[1;97mBack \033[1;91m]')
                 menu()
-	elif zedd =="8":
+	elif zedd =="5":
 		os.remove('out')
-	elif zedd =="9":
+	elif zedd =="6":
 		os.system('rm -rf login.txt')
 		os.system('xdg-open https://facebook.com/raja.muh.raf.7')
 		keluar()
